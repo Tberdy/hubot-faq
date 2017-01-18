@@ -2,7 +2,7 @@
   "name": "hubot-faq",
   "version": "1.0.0",
   "description": "FAQ module for Hubot",
-  "main": "index.js",
+  "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/Tberdy/hubot-faq/issues"
   },
-  "homepage": "https://github.com/Tberdy/hubot-faq#readme"
+  "homepage": "https://github.com/Tberdy/hubot-faq#readme",
+  "dependencies": {
+  }
 }
