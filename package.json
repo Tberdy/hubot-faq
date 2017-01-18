@@ -1,6 +1,6 @@
 {
   "name": "hubot-faq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FAQ module for Hubot",
   "main": "index.coffee",
   "scripts": {
