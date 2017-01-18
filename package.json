@@ -1,0 +1,23 @@
+{
+  "name": "hubot-faq",
+  "version": "1.0.0",
+  "description": "FAQ module for Hubot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tberdy/hubot-faq.git"
+  },
+  "keywords": [
+    "faq",
+    "hubot"
+  ],
+  "author": "Thomas Berdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tberdy/hubot-faq/issues"
+  },
+  "homepage": "https://github.com/Tberdy/hubot-faq#readme"
+}
