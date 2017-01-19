@@ -33,7 +33,7 @@ module.exports = (robot) ->
     msg.send list
       
       
-  robot.respond /faq add <([a-zA-Zéèàêôùïî-]+)> <([-a-zA-Zéèàêôùïî, ]+)>/i, (msg) -> 
+  robot.respond /faq add <([a-zA-Zéèàêôùïî-]+)> <([-a-zA-Zéèàêôùïîç!?#,.:;_ ]+)>/i, (msg) -> 
     faqDB = readFAQ()
     faqDB[msg.match[1]] = msg.match[2]
     writeFAQ faqDB
